@@ -2,5 +2,5 @@
 import React from "react";
 
 export default function Authorization() {
-  return <div className="bgImage"> მთავარი გვერდი</div>;
+  return <div className="bgImage">რეგისტრაცია</div>;
 }

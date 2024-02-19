@@ -6,7 +6,7 @@ const StyledButton = styled.button<Button>`
   border: 2px solid #4caf50;
   background-color: ${(props) =>
     props.variant === "outline" ? "#fff" : "#4caf50"};
-  color: ${(props) => (props.variant === "outline" ? "#fff" : "#z")};
+  color: ${(props) => (props.variant === "outline" ? "red" : "#fff")};
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -15,4 +15,6 @@ const StyledButton = styled.button<Button>`
   cursor: pointer;
   transition: 0.5s all ease-out;
 `;
+
+
 export default StyledButton;
